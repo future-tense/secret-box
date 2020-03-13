@@ -4,6 +4,7 @@
   "description": "Simple symmetric encryption for nodejs and browsers",
   "main": "lib/commonjs/index.js",
   "browser": "lib/esm/browser.js",
+  "types": "lib/types/index.d.ts",
   "files": [
     "lib"
   ],
@@ -15,8 +16,11 @@
   },
   "sideEffects": false,
   "author": "Johan Stén <johan@futuretense.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/future-tense/secret-box.git"
+  },
   "license": "MIT",
-  "types": "lib/types/index.d.ts",
   "devDependencies": {
     "@types/node": "^12.7.12",
     "ava": "^3.5.0",
