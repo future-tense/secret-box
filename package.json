@@ -22,10 +22,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^12.7.12",
+    "@types/node": "^12.12.30",
     "ava": "^3.5.0",
     "ava-ts": "^0.25.2",
     "ts-node": "^8.6.2",
-    "typescript": "^3.6.4"
+    "typescript": "^3.8.3"
   }
 }
